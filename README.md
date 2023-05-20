@@ -8,16 +8,17 @@
 
 **Idea 1 :** 
 
-(*dim a*) dimention shadeless, orthographic, 
+(*dim a*) dimention shadeless, orthographic,
+
 (*dim b*) dimention with shades and light, perspective
 
 maintain the balance in both life
 
 dim a
-    goto sleep
-    dream work
+    - goto sleep
+    - dream work
 
 
 dim b
-    wake up
-    real life work
+    - wake up
+    - real life work
