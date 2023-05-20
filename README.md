@@ -1,6 +1,6 @@
 # The_GameDev.tv_Game_Jam_2023
 
-**THEME :** Life in 2 dimensions!
+## **THEME :** Life in 2 dimensions!
 
 **Start Date :** 20/05/2023
 
@@ -8,17 +8,20 @@
 
 **Idea 1 :** 
 
-(*dim a*) dimention shadeless, orthographic,
+maintain the balance in dream and life.
 
-(*dim b*) dimention with shades and light, perspective
+dimention shadeless, orthographic,
+> *dim a*
 
-maintain the balance in both life
-
-dim a
-    - goto sleep
-    - dream work
+dimention with shades and light, perspective
+> *dim b*
 
 
-dim b
-    - wake up
-    - real life work
+**dim a**
+- goto sleep
+- dream work
+
+
+**dim b**
+- wake up
+- real life work
