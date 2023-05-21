@@ -1,0 +1,47 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "Let's Serve",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 1,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Player.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Level","folderPath":"folders/Level.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite","folderPath":"folders/Player/Sprite.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Game Manager","folderPath":"folders/Game Manager.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Font","folderPath":"folders/Font.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Script","folderPath":"folders/Script.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Environment","folderPath":"folders/Environment.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.4.0.84",
+  },
+  "resources": [
+    {"id":{"name":"s_player_idle_front","path":"sprites/s_player_idle_front/s_player_idle_front.yy",},},
+    {"id":{"name":"o_game_manager","path":"objects/o_game_manager/o_game_manager.yy",},},
+    {"id":{"name":"scr_control","path":"scripts/scr_control/scr_control.yy",},},
+    {"id":{"name":"o_player_p2","path":"objects/o_player_p2/o_player_p2.yy",},},
+    {"id":{"name":"o_player_master","path":"objects/o_player_master/o_player_master.yy",},},
+    {"id":{"name":"o_player_p1","path":"objects/o_player_p1/o_player_p1.yy",},},
+    {"id":{"name":"s_tree","path":"sprites/s_tree/s_tree.yy",},},
+    {"id":{"name":"o_tree","path":"objects/o_tree/o_tree.yy",},},
+    {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
+    {"id":{"name":"o_room_manger","path":"objects/o_room_manger/o_room_manger.yy",},},
+    {"id":{"name":"rm_kitchen","path":"rooms/rm_kitchen/rm_kitchen.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"rm_kitchen","path":"rooms/rm_kitchen/rm_kitchen.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
