@@ -42,3 +42,32 @@ dimention with shades and light, perspective
 - calling out the ticket
 - cut veggies, look for spice jars
 
+
+
+
+**Idea 2 :** 
+
+**Goal :** you can go spirit for to look for where the objective and enemy is, body is for movement and actions to reach to the objective
+
+
+**dim a**
+- body form
+- life color warm (optional)
+- can move but collide with other
+- enemies can interact
+- side view
+- can jump
+- can't see through
+- same x axis, z axis connected with spirit form y axis, y axis no connection (haze and blur acrding to the z position)
+
+
+**dim b**
+- spirit form, leave body in a place
+- dream color cool (optional)
+- spirit form can move freely and increase vision
+- enemies can't interact
+- top-down perspective
+- can't jump
+- can see through
+- same x axis, but y work as z
+
