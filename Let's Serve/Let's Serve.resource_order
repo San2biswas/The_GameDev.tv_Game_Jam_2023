@@ -1,17 +1,18 @@
 {
   "FolderOrderSettings": [
-    {"name":"Player","order":2,"path":"folders/Player.yy",},
-    {"name":"Level","order":3,"path":"folders/Level.yy",},
-    {"name":"Sprite","order":3,"path":"folders/Player/Sprite.yy",},
-    {"name":"Game Manager","order":6,"path":"folders/Game Manager.yy",},
-    {"name":"Font","order":7,"path":"folders/Font.yy",},
-    {"name":"Script","order":8,"path":"folders/Script.yy",},
     {"name":"Environment","order":9,"path":"folders/Environment.yy",},
+    {"name":"Font","order":7,"path":"folders/Font.yy",},
+    {"name":"Game Manager","order":6,"path":"folders/Game Manager.yy",},
+    {"name":"Level","order":3,"path":"folders/Level.yy",},
+    {"name":"Player","order":2,"path":"folders/Player.yy",},
+    {"name":"Sprite","order":3,"path":"folders/Player/Sprite.yy",},
+    {"name":"Script","order":8,"path":"folders/Script.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"o_game_manager","order":1,"path":"objects/o_game_manager/o_game_manager.yy",},
     {"name":"o_player_p2","order":2,"path":"objects/o_player_p2/o_player_p2.yy",},
     {"name":"o_player_p1","order":1,"path":"objects/o_player_p1/o_player_p1.yy",},
     {"name":"s_tree","order":1,"path":"sprites/s_tree/s_tree.yy",},
+    {"name":"s_tree_shadeless","order":2,"path":"sprites/s_tree_shadeless/s_tree_shadeless.yy",},
   ],
 }

@@ -22,7 +22,9 @@ key_upA		= keyboard_check_pressed(vk_up);
 key_downA	= keyboard_check_pressed(vk_down);
 
 key_escape	= keyboard_check_pressed(vk_escape);
-//key_temp	= keyboard_check_pressed(ord(chr("T")));
+key_q		= keyboard_check_pressed(ord("Q"));
+key_e		= keyboard_check_pressed(ord("E"));
+key_temp	= keyboard_check_pressed(ord("T"));
 
 
 }
