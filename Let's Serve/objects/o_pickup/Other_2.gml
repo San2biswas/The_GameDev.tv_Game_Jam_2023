@@ -1,0 +1,1 @@
+global.heartPickUp = 0;

@@ -7,9 +7,11 @@
     {"name":"Player","order":2,"path":"folders/Player.yy",},
     {"name":"Sprite","order":3,"path":"folders/Player/Sprite.yy",},
     {"name":"Script","order":8,"path":"folders/Script.yy",},
+    {"name":"Elements","order":10,"path":"folders/Elements.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"o_game_manager","order":1,"path":"objects/o_game_manager/o_game_manager.yy",},
+    {"name":"s_apple","order":1,"path":"sprites/s_apple/s_apple.yy",},
     {"name":"o_player_p2","order":2,"path":"objects/o_player_p2/o_player_p2.yy",},
     {"name":"o_player_p1","order":1,"path":"objects/o_player_p1/o_player_p1.yy",},
     {"name":"s_tree","order":1,"path":"sprites/s_tree/s_tree.yy",},

@@ -16,7 +16,7 @@ mbX = mouse_x;
 mbY = mouse_y;
 
 pPath = path_add();
-mp_linear_path( pPath, mbX, mbY, 5, 1 );
+mp_linear_path( pPath, mbX, mbY, 5, 0 );
 if mbl path_start( pPath, 5, path_action_stop, 1 );
 
 

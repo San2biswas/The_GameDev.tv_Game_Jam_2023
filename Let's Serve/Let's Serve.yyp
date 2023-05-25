@@ -18,6 +18,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Player.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite","folderPath":"folders/Player/Sprite.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Script","folderPath":"folders/Script.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Elements","folderPath":"folders/Elements.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -28,6 +29,8 @@
   "resources": [
     {"id":{"name":"s_player_idle_front","path":"sprites/s_player_idle_front/s_player_idle_front.yy",},},
     {"id":{"name":"o_game_manager","path":"objects/o_game_manager/o_game_manager.yy",},},
+    {"id":{"name":"o_pickup","path":"objects/o_pickup/o_pickup.yy",},},
+    {"id":{"name":"s_apple","path":"sprites/s_apple/s_apple.yy",},},
     {"id":{"name":"scr_control","path":"scripts/scr_control/scr_control.yy",},},
     {"id":{"name":"o_player_p2","path":"objects/o_player_p2/o_player_p2.yy",},},
     {"id":{"name":"o_player_master","path":"objects/o_player_master/o_player_master.yy",},},
