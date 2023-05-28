@@ -20,6 +20,20 @@ mp_linear_path( pPath, mbX, mbY, 5, shd );
 if mbl path_start( pPath, 5, path_action_stop, 1 );
 
 
+#region // player movement direction
+
+if direction > 90 && direction < 270
+{
+	image_xscale = -1;
+}
+else
+{
+	image_xscale = 1;
+}
+
+#endregion // player movement direction -X-
+
+
 #endregion // pathfinder -X-
 
 

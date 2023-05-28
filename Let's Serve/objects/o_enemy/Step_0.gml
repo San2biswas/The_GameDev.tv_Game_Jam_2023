@@ -4,7 +4,7 @@
 #region // wave generate
 
 global.enemyWave= global.enemyWave + 0.0001;
-if global.enemyWave > 5.50 global.enemyWave = 5.50;
+if global.enemyWave > 5.90 global.enemyWave = 5.90;
 
 
 if frac(global.enemyWave) == 0.03
@@ -38,4 +38,44 @@ else
 path_start( ePath, floor(global.enemyWave), path_action_stop, 1 );
 
 #endregion // enemy pathfinder -X-
+
+
+#region // collision fix
+
+if place_meeting( x, y, o_box )
+{
+	x = x + 1;
+	y = y + 1;
+}
+
+if place_meeting( x, y, o_enemy )
+{
+	x = x + irandom_range(-1, 1);
+	y = y + irandom_range(-1, 1);
+}
+
+if place_meeting( x, y, o_health )
+{
+	x = x + irandom_range(-1, 1);
+	y = y + irandom_range(-1, 1);
+}
+
+if place_meeting( x, y, o_pickup )
+{
+	x = x + irandom_range(-1, 1);
+	y = y + irandom_range(-1, 1);
+}
+
+
+#endregion // collision fix -X-
+
+
+#region // depth sorting
+
+with (all)
+{
+	depth = -bbox_bottom
+}
+
+#endregion // depth sorting -X-
 
