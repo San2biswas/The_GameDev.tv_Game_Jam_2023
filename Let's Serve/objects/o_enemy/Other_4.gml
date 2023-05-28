@@ -1,0 +1,1 @@
+global.enemyWave = 1;

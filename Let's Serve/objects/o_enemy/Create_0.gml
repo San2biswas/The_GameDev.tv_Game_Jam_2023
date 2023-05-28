@@ -1,5 +1,4 @@
-global.enemyWave = 1;
-
+/// @descr depth sorting
 
 #region // depth sorting
 

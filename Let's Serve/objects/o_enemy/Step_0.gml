@@ -1,7 +1,24 @@
-// wave update
+/// @descr enemy pathfinder and wave
+
+
+#region // wave generate
 
 global.enemyWave= global.enemyWave + 0.0001;
 if global.enemyWave > 5 global.enemyWave = 5;
+
+
+if frac(global.enemyWave) == 0.03
+{
+	repeat (floor(global.enemyWave))
+	{
+		instance_create_layer( irandom_range( 40, 600), irandom_range( 40, 320), "lr_enemy", o_enemy );
+	}
+}
+
+#endregion // wave generate -X-
+
+
+#region // enemy pathfinder
 
 ePath = path_add();
 
@@ -19,4 +36,6 @@ else
 #endregion // follow placeholder if exist -X-
 
 path_start( ePath, floor(global.enemyWave), path_action_stop, 1 );
+
+#endregion // enemy pathfinder -X-
 
