@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Elements",
-    "path": "folders/Elements.yy",
+    "name": "Pickups",
+    "path": "folders/UI/Elements/Pickups.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

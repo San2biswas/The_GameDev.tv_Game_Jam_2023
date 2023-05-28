@@ -19,22 +19,21 @@ pPath = path_add();
 mp_linear_path( pPath, mbX, mbY, 5, shd );
 if mbl path_start( pPath, 5, path_action_stop, 1 );
 
+#endregion // pathfinder -X-
+
 
 #region // player movement direction
 
 if direction > 90 && direction < 270
 {
-	image_xscale = -1;
+	image_index = 1;
 }
 else
 {
-	image_xscale = 1;
+	image_index = 0;
 }
 
 #endregion // player movement direction -X-
-
-
-#endregion // pathfinder -X-
 
 
 #region // dimension change

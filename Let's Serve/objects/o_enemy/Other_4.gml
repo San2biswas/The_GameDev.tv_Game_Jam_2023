@@ -1,1 +1,1 @@
-global.enemyWave = 1;
+global.enemyWave = 0.9;

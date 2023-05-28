@@ -12,7 +12,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Game Manager",
-    "path": "folders/Game Manager.yy",
+    "path": "folders/Level/Game Manager.yy",
   },
   "parentObjectId": null,
   "persistent": false,

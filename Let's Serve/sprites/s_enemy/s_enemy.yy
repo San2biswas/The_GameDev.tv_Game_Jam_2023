@@ -30,7 +30,7 @@
   "origin": 4,
   "parent": {
     "name": "Npc",
-    "path": "folders/Npc.yy",
+    "path": "folders/Characters/Npc.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

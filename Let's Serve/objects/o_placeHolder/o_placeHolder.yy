@@ -9,7 +9,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Player",
-    "path": "folders/Player.yy",
+    "path": "folders/Characters/Player.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_player_idle_front",
-    "path": "sprites/s_player_idle_front/s_player_idle_front.yy",
+    "name": "s_player_right",
+    "path": "sprites/s_player_right/s_player_right.yy",
   },
   "spriteMaskId": null,
   "visible": true,

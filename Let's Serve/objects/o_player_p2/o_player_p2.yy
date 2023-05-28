@@ -11,7 +11,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Player",
-    "path": "folders/Player.yy",
+    "path": "folders/Characters/Player.yy",
   },
   "parentObjectId": {
     "name": "o_player_master",
@@ -33,8 +33,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_player_idle_front_shadeless",
-    "path": "sprites/s_player_idle_front_shadeless/s_player_idle_front_shadeless.yy",
+    "name": "s_player_right_shadeless",
+    "path": "sprites/s_player_right_shadeless/s_player_right_shadeless.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Elements",
-    "path": "folders/Elements.yy",
+    "name": "Pickups",
+    "path": "folders/UI/Elements/Pickups.yy",
   },
   "parentObjectId": null,
   "persistent": false,
