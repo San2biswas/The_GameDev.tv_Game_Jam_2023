@@ -119,7 +119,7 @@
   "maintainGms1Font": false,
   "parent": {
     "name": "Font",
-    "path": "folders/Font.yy",
+    "path": "folders/Game Manager/Font.yy",
   },
   "pointRounding": 0,
   "ranges": [

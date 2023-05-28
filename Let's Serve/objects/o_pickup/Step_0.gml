@@ -1,5 +1,5 @@
-if place_meeting( x, y, o_player_master )
+if place_meeting( x, y, o_player_p1 )
 {
 	instance_destroy(self);
-	global.heartPickUp ++;
+	global.soulPickUp ++;
 }

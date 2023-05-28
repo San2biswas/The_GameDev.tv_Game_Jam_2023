@@ -1,7 +1,5 @@
 /// @descr player event
 
-depth = -bbox_bottom;
-
 #region // import script
 
 scr_control();
@@ -10,13 +8,15 @@ scr_control();
 #endregion // import script -X-
 
 
-#region // pathfinder
-
+depth = -bbox_bottom;
 mbX = mouse_x;
 mbY = mouse_y;
 
+
+#region // pathfinder
+
 pPath = path_add();
-mp_linear_path( pPath, mbX, mbY, 5, 0 );
+mp_linear_path( pPath, mbX, mbY, 5, shd );
 if mbl path_start( pPath, 5, path_action_stop, 1 );
 
 
@@ -25,18 +25,18 @@ if mbl path_start( pPath, 5, path_action_stop, 1 );
 
 #region // dimension change
 
-if key_q
+
+if key_q // shadeless
 {
-	o_tree.sprite_index = s_tree_shadeless;
+	scr_shadeless();
 }
 
 
-if key_e
+if key_e // shadeed
 {
-	o_tree.sprite_index = s_tree;
+	scr_shaded();
 }
+
 
 #endregion // dimension change -X-
-
-
 

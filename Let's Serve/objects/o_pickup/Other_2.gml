@@ -1,1 +1,1 @@
-global.heartPickUp = 0;
+global.soulPickUp = 0;

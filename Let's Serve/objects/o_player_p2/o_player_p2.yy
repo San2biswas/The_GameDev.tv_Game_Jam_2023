@@ -2,7 +2,11 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "o_player_p2",
-  "eventList": [],
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -28,7 +32,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "s_player_idle_front_shadeless",
+    "path": "sprites/s_player_idle_front_shadeless/s_player_idle_front_shadeless.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

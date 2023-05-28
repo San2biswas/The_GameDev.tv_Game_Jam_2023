@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "s_apple",
-    "path": "sprites/s_apple/s_apple.yy",
+    "name": "s_souls",
+    "path": "sprites/s_souls/s_souls.yy",
   },
   "spriteMaskId": null,
   "visible": true,

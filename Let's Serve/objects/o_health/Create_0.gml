@@ -1,0 +1,1 @@
+heartPickUp = 0;

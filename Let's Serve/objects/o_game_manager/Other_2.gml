@@ -11,12 +11,3 @@ draw_set_valign(fa_top);
 
 #endregion // text defaults -X-
 
-
-#region // depth sorting
-
-with (all)
-{
-	depth = -bbox_bottom
-}
-
-#endregion // depth sorting -X-
