@@ -9,6 +9,7 @@ instance_destroy(o_placeHolder);
 
 o_box.sprite_index		= s_box;
 o_pickup.sprite_index	= s_souls;
+o_health.sprite_index	= s_health;
 o_enemy.sprite_index	= s_enemy;
 layer_set_visible("lr_fx_spirit1", false);
 shd = 0;

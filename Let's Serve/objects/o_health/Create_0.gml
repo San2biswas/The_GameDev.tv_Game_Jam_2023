@@ -1,1 +1,0 @@
-heartPickUp = 0;

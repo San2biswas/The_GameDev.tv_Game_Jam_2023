@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "s_apple_shadeless",
+  "name": "s_souls_shadeless",
   "bbox_bottom": 17,
   "bbox_left": 14,
   "bbox_right": 17,
@@ -20,7 +20,9 @@
   "height": 32,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"9bb436a2-f664-4bc5-a0e8-364dc5aa3782","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"b942fe41-b8ef-406a-8386-217373011f0a","blendMode":1,"displayName":"Layer 3","isLocked":false,"opacity":66.0,"visible":false,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"25a75ece-f0a4-4f08-8c8d-bef1c7743341","blendMode":0,"displayName":"Layer 2","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"2e0b0279-c17f-4c1e-8232-10f899da710f","blendMode":0,"displayName":"Layer 1","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 4,
@@ -32,7 +34,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "s_apple_shadeless",
+    "name": "s_souls_shadeless",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +56,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4cc2a7c0-2384-429e-ad29-ae9d270fba2c","path":"sprites/s_apple_shadeless/s_apple_shadeless.yy",},},},"Disabled":false,"id":"d748b8a5-c434-4a51-bfef-3c5cf1fe78b0","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"4cc2a7c0-2384-429e-ad29-ae9d270fba2c","path":"sprites/s_souls_shadeless/s_souls_shadeless.yy",},},},"Disabled":false,"id":"3b976dd1-e6be-44bf-8a76-7e17ae10753b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

@@ -4,7 +4,7 @@
 #region // wave generate
 
 global.enemyWave= global.enemyWave + 0.0001;
-if global.enemyWave > 5 global.enemyWave = 5;
+if global.enemyWave > 5.50 global.enemyWave = 5.50;
 
 
 if frac(global.enemyWave) == 0.03
