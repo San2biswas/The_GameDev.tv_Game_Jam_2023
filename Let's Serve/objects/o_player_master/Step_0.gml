@@ -16,7 +16,7 @@ mbY = mouse_y;
 #region // pathfinder
 
 pPath = path_add();
-mp_linear_path( pPath, mbX, mbY, 5, shd );
+mp_potential_path( pPath, mbX, mbY, 2, 2, shd );
 if mbl path_start( pPath, 5, path_action_stop, 1 );
 
 #endregion // pathfinder -X-
@@ -39,16 +39,16 @@ else
 #region // dimension change
 
 
-if key_q // shadeless
+if mbr && instance_exists(o_player_p1) // shadeless
 {
 	scr_shadeless();
 }
 
 
-if key_e // shadeed
-{
-	scr_shaded();
-}
+//if key_e // shadeed
+//{
+//	scr_shaded();
+//}
 
 
 #endregion // dimension change -X-

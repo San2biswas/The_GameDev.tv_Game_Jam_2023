@@ -14,5 +14,6 @@ o_enemy.sprite_index	= s_enemy;
 layer_set_visible("lr_fx_spirit1", false);
 shd = 0;
 mp_linear_path( pPath, mbX, mbY, 5, 0 );
+o_player_icon.image_index = 0;
 
 }

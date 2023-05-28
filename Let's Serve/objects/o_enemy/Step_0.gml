@@ -26,11 +26,11 @@ ePath = path_add();
 
 if instance_exists( o_placeHolder)
 {
-	mp_potential_path( ePath, o_placeHolder.x, o_placeHolder.y, 2, 2, 1 );
+	mp_potential_path( ePath, o_placeHolder.x, o_placeHolder.y, 2, 2, 0 );
 }
 else
 {
-	mp_potential_path( ePath, o_player_p1.x, o_player_p1.y, 2, 2, 1 );
+	mp_potential_path( ePath, o_player_p1.x, o_player_p1.y, 2, 2, 0 );
 }
 
 #endregion // follow placeholder if exist -X-
