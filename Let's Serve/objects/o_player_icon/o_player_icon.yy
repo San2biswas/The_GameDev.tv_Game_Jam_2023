@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Logo",
-    "path": "folders/UI/Logo.yy",
+    "name": "Icon",
+    "path": "folders/UI/Icon.yy",
   },
   "parentObjectId": null,
   "persistent": false,

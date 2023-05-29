@@ -33,8 +33,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Logo",
-    "path": "folders/UI/Logo.yy",
+    "name": "Icon",
+    "path": "folders/UI/Icon.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

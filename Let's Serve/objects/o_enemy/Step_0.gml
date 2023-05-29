@@ -12,6 +12,7 @@ if frac(global.enemyWave) == 0.03
 	repeat (floor(global.enemyWave))
 	{
 		instance_create_layer( irandom_range( 40, 600), irandom_range( 40, 320), "lr_enemy", o_enemy );
+		instance_create_layer( irandom_range( 60, 580), irandom_range( 40, 320), "lr_env", o_health );
 	}
 }
 
@@ -35,7 +36,15 @@ else
 
 #endregion // follow placeholder if exist -X-
 
-path_start( ePath, floor(global.enemyWave), path_action_stop, 1 );
+if global.enemyWave == 5.90
+{
+	path_start( ePath, floor(global.enemyWave) * 0, path_action_stop, 1 );
+}
+else
+{
+	path_start( ePath, floor(global.enemyWave), path_action_stop, 1 );
+}
+
 
 #endregion // enemy pathfinder -X-
 

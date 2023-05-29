@@ -61,8 +61,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Elements",
-    "path": "folders/Elements.yy",
+    "name": "Sprite",
+    "path": "folders/Elements/Sprite.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

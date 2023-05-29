@@ -18,6 +18,18 @@ if frac(global.enemyWave) > 0.01 && frac(global.enemyWave) < 0.06
 #endregion // wave message -X-
 
 
+#region // win message
+
+if global.enemyWave == 5.9
+{
+	draw_text( (room_width/2), (room_height/2) - 120, "You Win" )
+	instance_create_depth( (room_width/2), 200, 100, o_game_restart );
+	instance_create_depth( (room_width/2), 280, 100, o_game_quit );
+}
+
+#endregion // win message -X-
+
+
 #region // settings after wave message
 
 draw_set_font(fnt_default);

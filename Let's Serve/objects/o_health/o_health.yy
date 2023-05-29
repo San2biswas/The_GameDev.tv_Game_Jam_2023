@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Pickups",
-    "path": "folders/UI/Elements/Pickups.yy",
+    "path": "folders/UI/Pickups.yy",
   },
   "parentObjectId": null,
   "persistent": false,
