@@ -30,6 +30,16 @@ if global.enemyWave == 5.9
 #endregion // win message -X-
 
 
+#region // die message
+
+if global.pHealth == 0
+{
+	draw_text( (room_width/2), (room_height/2) - 120, "Let's try again!" )
+}
+
+#endregion // die message -X-
+
+
 #region // settings after wave message
 
 draw_set_font(fnt_default);
@@ -37,3 +47,4 @@ draw_set_color(c_white);
 draw_set_halign(fa_left);
 
 #endregion // settings after wave message -X-
+

@@ -23,7 +23,7 @@ if frac(global.enemyWave) == 0.03
 
 ePath = path_add();
 
-if global.enemyWave > 5.89
+if global.enemyWave < 5.89
 {
 	#region // follow placeholder if exist
 
