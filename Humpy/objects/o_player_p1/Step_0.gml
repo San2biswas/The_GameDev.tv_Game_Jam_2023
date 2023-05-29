@@ -18,3 +18,6 @@ if global.pHealth == 0
 	instance_create_depth( (room_width/2), 280, 100, o_game_quit );
 }
 
+
+//if place_meeting( x, y, o_health ) audio_play_sound( snd_healthDrink, 1, 0);	// play sound
+//if place_meeting( x, y, o_pickup ) audio_play_sound( snd_pickup1, 1, 0);	// play sound

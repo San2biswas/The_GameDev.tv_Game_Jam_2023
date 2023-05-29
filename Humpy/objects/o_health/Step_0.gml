@@ -6,6 +6,7 @@ if place_meeting( x, y, o_player_p1 )
 {
 	instance_destroy(self);
 	global.pHealth = global.pHealth + 1;
+	//audio_play_sound( snd_healthDrink, 100, 0);	// play sound
 }
 
 #endregion // health pick up -X-

@@ -42,13 +42,9 @@ else
 if mbr && instance_exists(o_player_p1) // shadeless
 {
 	scr_shadeless();
+	//audio_play_sound( snd_dimension, 1, 0);	// play sound
 }
 
-
-//if key_e // shadeed
-//{
-//	scr_shaded();
-//}
 
 
 #endregion // dimension change -X-
